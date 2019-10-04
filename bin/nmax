@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require './lib/nmax.rb'
+
+Nmax.run(ARGV[0])
