@@ -3,4 +3,7 @@
 
 require './lib/nmax.rb'
 
-Nmax.run(ARGV[0])
+puts 'Please wait...'
+result =  Nmax.run(ARGV[0])
+puts 'Top longest numbers are:'
+puts result

@@ -7,7 +7,6 @@ module Nmax
     limit = n.to_i
     return if limit <= 0
 
-    puts 'Please wait...'
     text_input = input
     numbers = []
 
@@ -19,10 +18,7 @@ module Nmax
         numbers.push(match.to_i)
       end
     end
-    result = numbers.uniq.sort.reverse.first(limit)
-    puts 'Top longest numbers are:'
-    puts result
-    result
+    numbers.uniq.sort.reverse.first(limit)
   end
 
   def self.input
