@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require './lib/nmax.rb'
+require 'nmax'
 
-puts 'Please wait...'
-result =  Nmax.run(ARGV[0])
-puts 'Top longest numbers are:'
+result = Nmax.run(ARGV[0])
+puts 'Top longest numbers are:' if result
 puts result
