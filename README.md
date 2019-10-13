@@ -1,5 +1,6 @@
-# Nmax
+[![Build Status](https://travis-ci.org/fixen94/nmax.svg?branch=master)](https://travis-ci.org/fixen94/nmax)
 
+# Nmax
 Outputs the longest numbers in a text stream
 
 ## Installation
